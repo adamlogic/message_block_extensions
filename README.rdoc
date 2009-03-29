@@ -4,5 +4,5 @@ This is an extraction of helpers that we've used for some EdgeCase projects that
 
 == Helper Methods
 
-[+flash_and_validation_messages+] This wraps the call to +message_block+ with some alternative defaults. You'll normally want to stick this in a layout file.
-[+show_validation_errors_on(models)+] Put this at the top of a view to specify which the models to show validation errors on when +flash_and_validation_messages+ is called.
++flash_and_validation_messages+:: This wraps the call to +message_block+ with some alternative defaults. You'll normally want to stick this in a layout file.
+<tt>show_validation_errors_on(models)</tt>:: Put this at the top of a view to specify which the models to show validation errors on when +flash_and_validation_messages+ is called.
