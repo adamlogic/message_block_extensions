@@ -1,8 +1,8 @@
 == Message Block Extensions
 
-This is an extraction of helpers that we've used for some EdgeCase projects that work with message_block[http://github.com/railsgarden/message_block/tree/master] plugin.
+This is an extraction of helpers that we've used for some EdgeCase projects that work with the message_block[http://github.com/railsgarden/message_block/tree/master] plugin.
 
 == Helper Methods
 
-+flash_and_validation_messages+:: This wraps the call to +message_block+ with some alternative defaults. You'll normally want to stick this in a layout file.
-+show_validation_errors_on(models)+:: Put this at the top of a view to specify which the models to show validation errors on when +flash_and_validation_messages+ is called.
+[+flash_and_validation_messages+] This wraps the call to +message_block+ with some alternative defaults. You'll normally want to stick this in a layout file.
+[+show_validation_errors_on(models)+] Put this at the top of a view to specify which the models to show validation errors on when +flash_and_validation_messages+ is called.
