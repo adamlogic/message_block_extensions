@@ -1,0 +1,14 @@
+Description:
+  Copies images and stylesheet to use as a starting point.
+
+Example:
+  script/generate message_block_extensions
+
+  This will create:
+    public/stylesheets/message_block.css
+
+    public/images/message_block
+    public/images/message_block/error.gif
+    public/images/message_block/warning.gif
+    public/images/message_block/notice.gif
+    public/images/message_block/success.gif

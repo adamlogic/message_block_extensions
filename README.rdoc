@@ -1,6 +1,11 @@
 == Message Block Extensions
 
-This is an extraction of helpers that we've used for some EdgeCase projects that work with the message_block[http://github.com/railsgarden/message_block/tree/master] plugin.
+This is an extraction of helpers that we've used for some EdgeCase projects that work with the message_block[http://github.com/railsgarden/message_block/tree/master] plugin. Mostly it provides alternative flash message keys that we typically use (:success, :notice, :warning, :error). It also includes some slight variations on the styles that come with message_block by default.
+
+== Installation
+
+  script/plugin install git://github.com/adamlogic/message_block_extensions.git
+  script/generate message_block_extensions
 
 == Helper Methods
 

@@ -1,0 +1,8 @@
+#message_block { clear: both; }
+
+#message_block ul { margin-bottom: 20px; list-style: none; padding: 5px 5px 5px 45px; font-size: 12px; line-height: 1.4; zoom: 1; }
+
+#message_block ul.error { border-top: 1px solid #a00; border-bottom: 1px solid #a00; background: #fdc url(/images/message_block/error.gif) 1em 50% no-repeat; }
+#message_block ul.notice { border-top: 1px solid #ecd757; border-bottom: 1px solid #ecd757; background: #fcf6d0 url(/images/message_block/notice.gif) 1em 50% no-repeat; } 
+#message_block ul.success { border-top: 1px solid #8c8; border-bottom: 1px solid #8c8; background: #deb url(/images/message_block/success.gif) 1em 50% no-repeat; }
+#message_block ul.warning { border-top: 1px solid #ecd757; border-bottom: 1px solid #ecd757; background: #fcf6d0 url(/images/message_block/warning.gif) 1em 50% no-repeat; }
